@@ -1,0 +1,18 @@
+1-introdução ao ES6 
+1A-o que é o ES6? 
+    OK 
+
+2A-ferramentas curso ES6 
+    OK 
+
+3A-preparar projeto ES6 
+    OK 
+
+
+2-ES6 na prática 
+1B-variáveis ES6 let e const 
+  var pode ser alteradas de qualquer lugar  
+  let após definido, mantem seu valor mesmo sendo tentado alterar em outro lugar 
+  const nunca pode ser alterado após delarado
+    
+    
