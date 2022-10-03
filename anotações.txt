@@ -1,18 +1,30 @@
 1-introdução ao ES6 
-1A-o que é o ES6? 
-    OK 
 
-2A-ferramentas curso ES6 
-    OK 
+1A-o que é o ES6? 
+    explicação do quanto o ES6 aumenta a produtividade 
+
+2A-ferramentas curso de ES6 
+    browser, vscode, https://babeljs.io/ - traduz o codigo em es6 PARA O ES5 
 
 3A-preparar projeto ES6 
-    OK 
 
 
 2-ES6 na prática 
-1B-variáveis ES6 let e const 
-  var pode ser alteradas de qualquer lugar  
-  let após definido, mantem seu valor mesmo sendo tentado alterar em outro lugar 
-  const nunca pode ser alterado após delarado
+
+1B-prático
+    
+2B-prático
+    
+3B-prático
+
+4B-prático 
+
+5B-prático
+
+6B-prático 
+
+    
+
+
     
     
