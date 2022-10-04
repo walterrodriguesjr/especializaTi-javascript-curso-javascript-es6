@@ -118,6 +118,41 @@ console.log(firstName);
 console.log(lastName);
 
 
-//5B-rest parameters ES6
+//6B-rest parameters ES6
 
+// CONCEITO PRINCIPAL DA AULA
+//consiste em, usar o ...params para passar diversos parametros de uma vez, transformando 
+        //em um array (parametro rest)
+        
+
+        let customUpperCase = (...params) => {
+            console.log(params);
+}
+
+customUpperCase('Carlos', 'Walter', 'Renan');
+
+
+//7B-spread ES6 (espalhar)
+
+// CONCEITO PRINCIPAL DA AULA
+//uso do spread, ao chamar a variavel que contem uma função, sum() como parametro, passo 
+//como spread a variavel q contem 3 itens em seu array, automaticamente distribuido
+//ao usar o 'spread' ele esparrama o conteudo da variavel que contem array, onde for chamado
+let sum = (n1, n2, n3) => n1 + n2 +n3;
+
+var numbers = [1, 2 ,3];
+console.log(sum(...numbers));
+
+
+
+//8B-parâmetros default ES6 
+
+// CONCEITO PRINCIPAL DA AULA
+//na delclaração da função, nos parametros está usando a informação que os parametros 
+    //possuem valor default
+
+let showFullName = (firstName = 'Nome Default', lastName = 'SobreNome Default') => {
+    console.log(`${firstName} ${lastName}`);
+}
+showFullName();
 
